@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 127807745}
   - component: {fileID: 127807747}
   - component: {fileID: 127807746}
+  - component: {fileID: 127807748}
   m_Layer: 0
   m_Name: Player Ship
   m_TagString: Untagged
@@ -202,6 +203,19 @@ MonoBehaviour:
   controlPitchFactor: 18
   controlRollFactor: 45
   rotationSpeed: 20
+--- !u!114 &127807748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127807744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a73eee13f07c6d549a509a7efcdb5035, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  laser: {fileID: 357408518}
 --- !u!1 &148437826
 GameObject:
   m_ObjectHideFlags: 0
@@ -1432,7 +1446,7 @@ ParticleSystem:
           m_PostInfinity: 2
           m_RotationOrder: 4
   EmissionModule:
-    enabled: 1
+    enabled: 0
     serializedVersion: 4
     rateOverTime:
       serializedVersion: 2
